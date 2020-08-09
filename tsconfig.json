@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "es5",
+    "lib": [
+      "es2015",
+      "es2017",
+      "dom"
+    ],
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "baseUrl": "./src/",
+    "strict": true,
+    "strictNullChecks": true
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "useCache": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+    // todo: develop용으로 빌드된 파일이 들어가는 폴더를 이곳에 추가합니다.
+  ],
+  "include": [
+    "src"
+  ]
+}
